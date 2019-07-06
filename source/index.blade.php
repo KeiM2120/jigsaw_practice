@@ -1,4 +1,6 @@
 @extends('_layouts.master')
+@extends('_layouts.header')
+
 
 @section('body')
 
