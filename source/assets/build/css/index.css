@@ -1,0 +1,33 @@
+.main_title {
+    font-size: 80px;
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 1em;
+    background-color: rgb(250, 130, 32);
+}
+
+.main_title::before,
+.main_title::after {
+    content: '';
+    position: absolute;
+}
+
+.main_title::before {
+    top: 100%;
+    left: 0;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: #ccc;
+}
+
+.main_title::after {
+    top: 0;
+    right: 0;
+    z-index: 2;
+    border-width: 30px 30px;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: #fff;
+}
