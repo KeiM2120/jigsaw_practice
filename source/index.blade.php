@@ -1,6 +1,6 @@
 @extends('_layouts.master')
-@extends('_layouts.header')
-
+@include('_layouts.header')
+@include('CommonFooter')
 
 @section('bodyStyle')
 <link rel="stylesheet" href="assets/build/css/index.css">
